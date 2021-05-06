@@ -6,6 +6,8 @@ from .cosine_kernel import CosineKernel
 from .cylindrical_kernel import CylindricalKernel
 from .distributional_input_kernel import DistributionalInputKernel
 from .gaussian_symmetrized_kl_kernel import GaussianSymmetrizedKLKernel
+from .gpfa_component_kernel import GPFAComponentKernel
+from .gpfa_kernel import GPFAKernel
 from .grid_interpolation_kernel import GridInterpolationKernel
 from .grid_kernel import GridKernel
 from .index_kernel import IndexKernel
@@ -42,6 +44,7 @@ __all__ = [
     "GaussianSymmetrizedKLKernel",
     "GridKernel",
     "GridInterpolationKernel",
+    "GPFAKernel",
     "IndexKernel",
     "InducingPointKernel",
     "LCMKernel",
@@ -57,6 +60,7 @@ __all__ = [
     "RBFKernel",
     "RFFKernel",
     "RBFKernelGrad",
+    "GPFAComponentKernel",
     "RQKernel",
     "ScaleKernel",
     "SpectralDeltaKernel",

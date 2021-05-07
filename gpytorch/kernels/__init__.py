@@ -28,6 +28,7 @@ from .rq_kernel import RQKernel
 from .scale_kernel import ScaleKernel
 from .spectral_delta_kernel import SpectralDeltaKernel
 from .spectral_mixture_kernel import SpectralMixtureKernel
+from .wendland_kernel import WendlandKernel
 
 __all__ = [
     "keops",
@@ -61,4 +62,5 @@ __all__ = [
     "ScaleKernel",
     "SpectralDeltaKernel",
     "SpectralMixtureKernel",
+    "WendlandKernel",
 ]
